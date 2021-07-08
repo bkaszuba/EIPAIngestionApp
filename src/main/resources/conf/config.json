@@ -1,0 +1,12 @@
+{
+  "eipa.ingestion.app": {
+    "polling-rate": 5000
+  },
+  "downstream.server": {
+    "endpoint": "http://localhost:3001/data"
+  },
+  "eipa.server": {
+    "endpoint": "https://eipa.udt.gov.pl/reader/export-data/dynamic",
+    "api-key": ""
+  }
+}

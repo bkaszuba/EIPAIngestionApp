@@ -1,0 +1,36 @@
+{
+  "data":[
+    {
+      "point_id": 6,
+      "prices": [
+        {
+          "price": "1.63",
+          "unit": "min",
+          "ts": "2018-11-23T14:25:00+01:00"
+        },
+        {
+          "price": "2.54",
+          "unit": "min",
+          "literal": "Promocja, 10 min ładowania za darmo",
+          "ts": "2018-11-23T14:14:21+01:00"
+        }
+      ],
+      "status": {
+        "availability": 0,
+        "status": 0,
+        "ts": "2018-11-23T14:38:58+01:00"
+      }
+    },
+    {
+      "point_id": 105,
+      "prices": [
+        {
+          "price": "3.73",
+          "unit": "m3",
+          "ts": "2018-11-23T14:23:59+01:00"
+        }
+      ]
+    }
+  ],
+  "generated":"2018-11-16T08:50:03+01:00"
+}

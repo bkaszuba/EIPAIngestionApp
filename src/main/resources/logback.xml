@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <include resource="org/springframework/boot/logging/logback/console.xml"/>
+  <appender name="STDOUT-TEXT" class="ch.qos.logback.core.ConsoleAppender">
+    <encoder>
+      <pattern>%d{ISO8601} [%highlight(%-5level)] %magenta(%thread) %green(%logger{16}) - %replace(%msg){'[\r\n]', ''}%n
+      </pattern>
+    </encoder>
+  </appender>
+  <root level="${LOG_LEVEL_ROOT:-INFO}">
+    <appender-ref ref="STDOUT-TEXT"/>
+  </root>
+  <logger name="com.kaszuba.eipa.EIPAIngestionApp" level="${LOG_LEVEL_COMPONENT:-INFO}"/>
+</configuration>
